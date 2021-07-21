@@ -7,8 +7,8 @@
 | actionBarDefault                   |                                                              |
 | actionBarDefaultIcon               |                                                              |
 | actionBarDefaultTitle              |                                                              |
-| actionBarDefaultSearch             |                                                              |
-| actionBarDefaultSearchPlaceholder  | “Search” text before typing in searchbar                     |
+| actionBarDefaultSearch             | Text typed into the searchbar                                |
+| actionBarDefaultSearchPlaceholder  | “Search” text before typing in the (inchat) searchbar        |
 | actionBarActionModeDefaultIcon     |                                                              |
 | actionBarActionModeDefaultTop      |                                                              |
 | actionBarActionModeDefaultSelector |                                                              |
