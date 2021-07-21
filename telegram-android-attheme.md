@@ -7,15 +7,15 @@
 | actionBarDefault                   |                                                              |
 | actionBarDefaultIcon               |                                                              |
 | actionBarDefaultTitle              |                                                              |
-| actionBarDefaultSearch             |                                                              |
-| actionBarDefaultSearchPlaceholder  | “Search” text before typing in searchbar                     |
+| actionBarDefaultSearch             | Text typed into the searchbar                                |
+| actionBarDefaultSearchPlaceholder  | “Search” text before typing in the (inchat) searchbar        |
 | actionBarActionModeDefaultIcon     |                                                              |
 | actionBarActionModeDefaultTop      |                                                              |
 | actionBarActionModeDefaultSelector |                                                              |
 | actionBarDefaultSubmenuBackground  | Background of ellipsis dropdown menu                         |
 | actionBarDefaultSubmenuItem        | Text of ellipsis dropdown menu items                         |
 | actionBarDefaultSubmenuItemIcon    | Icons of ellipsis dropdown menu items                        |
-| ===============================    |                                                              |
+|                                    |                                                              |
 | avatar_background[Colour]          | Background of placeholder avatar for contact with no profile pic |
 | graySection                        | Small background section in “New Message” dialogue?          |
 | chats_menuBackground               | Background of sidebar menu                                   |
