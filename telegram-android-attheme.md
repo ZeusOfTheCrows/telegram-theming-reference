@@ -2,7 +2,7 @@
 
 | Key                                   | Description                                                  |
 | ------------------------------------- | ------------------------------------------------------------ |
-| *Generic*                             |                                                              |
+| _Generic_                             |                                                              |
 | windowBackgroundWhite                 | Main background colour                                       |
 | actionBarDefaultSelector              |                                                              |
 | actionBarDefault                      |                                                              |
