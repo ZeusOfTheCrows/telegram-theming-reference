@@ -19,7 +19,8 @@
 | _Chats List_                          |                                                              |
 | avatar_text                           | User initials of placeholder avatar for contact with no profile pic |
 | avatar_background[Colour]             | Background of placeholder avatar for contact with no profile pic |
-| graySection                           | Small background section in “New Message” dialogue?          |
+| key_graySectionText                   | Month name in “Saved Messages” file lists - may be elsewhere too |
+| graySection                           | Dark between cards in “Saved Messages”/“New Message” dialogue |
 | chats_menuBackground                  | Background of sidebar menu                                   |
 | chats_menuName                        | Username in sidebar menu (also day/night toggle)             |
 | chats_menuPhone                       | Phone number in sidebar menu                                 |
@@ -69,3 +70,10 @@
 | chat_outSentClockSelected             | Outbound message sending clock icon when selected            |
 | chat_inSentClock                      | Inbound message sending clock icon                           |
 | chat_inSentClockSelected              | Inbound message sending clock icon when selected             |
+| chat_mediaSentCheck                   | Outbound image sent tickmark                                 |
+| chat_mediaSentClock                   | Outbound image sending clock icon                            |
+| chat_[in/out]Views[Selected]          | Views (eye) icon on message bubble in group chats [when message selected] |
+| chat_mediaViews                       | Views (eye) icon on images in group chats                    |
+| chat_[in/out]Menu[Selected]           | Unticked radio button on polls [when message selected]       |
+| chat_mediaMenu                        | /!\ Unknown /!\                                              |
+| chat_[in/out]Instant                  | /!\ Unknown /!\                                              |
