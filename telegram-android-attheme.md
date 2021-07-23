@@ -22,7 +22,7 @@
 | actionBarDefaultSubmenuItemIcon                   | Icons of ellipsis/dropdown menu items                        |
 | player_progressBackground                         | Dimmed darker line of all progress bars/sliders in settings  |
 | player_progress                                   | Foreground/dot of all progress bars/sliders in settings      |
-|                                                   |                                                              |
+| switchTrack                                       | /!\ Hue of 2/3 line preview in settings                      |
 |                                                   |                                                              |
 |                                                   |                                                              |
 |                                                   |                                                              |
