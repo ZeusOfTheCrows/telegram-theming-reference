@@ -22,20 +22,22 @@
 | actionBarDefaultSubmenuItemIcon                   | Icons of ellipsis/dropdown menu items                        |
 | player_progressBackground                         | Dimmed darker line of all progress bars/sliders in settings  |
 | player_progress                                   | Foreground/dot of all progress bars/sliders in settings      |
-| switchTrack                                       | /!\ Hue of 2/3 line preview in settings                      |
+| switchTrack                                       | Toggle switch icon when disabled - also hue of 2/3 line preview in settings |
+| switchTrackChecked                                | Toggle switch icon when enabled                              |
 |                                                   |                                                              |
 | _Chats List_                                      |                                                              |
 | profile_tabSelected[Line/Text]                    | See entry in #User Profile (may be a bug?)                   |
 | profile_tabText                                   | See entry in #User Profile (may be a bug?)                   |
 | avatar_text                                       | User initials of placeholder avatar for contact with no profile pic |
 | avatar_background[Colour]                         | Background of placeholder avatar for contact with no profile pic |
-| key_graySectionText                               | Month name in “Saved Messages” file lists - may be elsewhere too |
+| key_graySectionText                               | /!\ Month name in “Saved Messages” file lists - may be elsewhere too |
 | graySection                                       | Dark between cards in “Saved Messages”/“New Message” dialogue |
 | chats_menuBackground                              | Background of sidebar menu                                   |
 | chats_menuName                                    | Username in sidebar menu (also day/night toggle)             |
 | chats_menuPhone                                   | Phone number in sidebar menu                                 |
 | chats_menuPhoneCats                               | same as chats_menuPhone, sometimes?                          |
-| chat_serviceBackground                            | /!\ Unknown /!\                                              |
+| chat_serviceBackground                            | Background of forward button, internal link to group, etc    |
+| chat_service[Text/Link/Icon]                      | [Text/Link/Icon] of forward button, internal link to group, etc |
 | chats_menuTopShadow                               | /!\ Unknown /!\                                              |
 | chats_menuTopShadowCats                           | Bottom “shadow” for section of sidebar menu containing username |
 | chats_menuTopBackgroundCats                       | /!\ Unknown /!\                                              |
@@ -92,6 +94,8 @@
 | chat_[in/out]ReplyLine                            | Line to the left of quoted text in [inbound/outbound] reply messages |
 | chat_[in/out]ReplyNameText                        | Name of sender of message replied to in [inbound/outbound] messages |
 | chat_[in/out]ReplyMessageText                     | Contents of message replied to in [inbound/outbound] messages |
+| chat_[in/out]AudioSeekbar[Selected]               | Dimmed darker line of [inbound/outbound] music progress bar [when message selected] |
+| chat_[in/out]AudioSeekbarFill[Selected]           | Foreground/dot of [inbound/outbound] music progress bar [when message selected] |
 |                                                   |                                                              |
 | _User Profile_                                    |                                                              |
 | profile_tabSelected[Line/Text]                    | [Text/Line below] media type active tab - also in chats list when multiple chats selected |
