@@ -24,9 +24,6 @@
 | player_progress                                   | Foreground/dot of all progress bars/sliders in settings      |
 | switchTrack                                       | /!\ Hue of 2/3 line preview in settings                      |
 |                                                   |                                                              |
-|                                                   |                                                              |
-|                                                   |                                                              |
-|                                                   |                                                              |
 | _Chats List_                                      |                                                              |
 | profile_tabSelected[Line/Text]                    | See entry in #User Profile (may be a bug?)                   |
 | profile_tabText                                   | See entry in #User Profile (may be a bug?)                   |
