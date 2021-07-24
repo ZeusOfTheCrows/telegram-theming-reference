@@ -7,6 +7,8 @@
 | windowBackgroundWhiteBlueText4                    | “Change chat background” text/icon                           |
 | divider                                           | Dividing line between clickable items                        |
 | listSelectorSDK21                                 | Ripple overlay when pressing list/menu item (dimmed)         |
+| chats_action[Icon/Background/PressedBackground]   | [Icon/background/background when tapped] of floating action button (FAB) in chat/calls list screen |
+| featuredStickers_addButton                        | /!\ Also affects phone icon in calls list screen             |
 | actionBarDefaultSelector                          | /!\ Unknown /!\                                              |
 | actionBarDefault                                  | Background of header bar                                     |
 | actionBarDefaultIcon                              | Icons in header bar (hamburger/search/ellipse/etc.)          |
@@ -14,8 +16,8 @@
 | actionBarDefaultSubtitle                          | Last seen time text in header bar                            |
 | actionBarDefaultSearch                            | Text typed into the searchbar                                |
 | actionBarDefaultSearchPlaceholder                 | “Search” text before typing in the (inchat) searchbar        |
-| actionBarActionModeDefaultIcon                    |                                                              |
-| actionBarActionModeDefaultTop                     |                                                              |
+| actionBarActionModeDefaultIcon                    | Header bar background when selecting messages                |
+| actionBarActionModeDefaultTop                     | OS statusbar when selecting messages                         |
 | actionBarActionModeDefaultSelector                |                                                              |
 | actionBarDefaultSubmenuBackground                 | Background of ellipsis/dropdown menu                         |
 | actionBarDefaultSubmenuItem                       | Text of ellipsis/dropdown menu items                         |
@@ -24,6 +26,7 @@
 | player_progress                                   | Foreground/dot of all progress bars/sliders in settings      |
 | switchTrack                                       | Toggle switch icon when disabled - also hue of 2/3 line preview in settings |
 | switchTrackChecked                                | Toggle switch icon when enabled                              |
+| chats_callRecieved[Red/Green]Icon                 | Arrow in calls screen of [failed/successful] calls           |
 |                                                   |                                                              |
 | _Chats List_                                      |                                                              |
 | profile_tabSelected[Line/Text]                    | See entry in #User Profile (may be a bug?)                   |
@@ -89,7 +92,11 @@
 | chat_mediaViews                                   | Views (eye) icon on images in group chats                    |
 | chat_[in/out]Menu[Selected]                       | Unticked radio button on media (file/poll/etc.) [when message selected] |
 | chat_mediaMenu                                    | /!\ Unknown /!\                                              |
-| chat_[in/out]Instant                              | /!\ Unknown /!\                                              |
+| chat_[in/out]Instant                              | Lightning icon in [inbound/outbound] instant article links   |
+| chat_[in/out]InstantSelected                      | /!\ Unknown /!\                                              |
+| chat_[in/out]PreviewInstantText                   | “Instant View” text + outline in [inbound/outbound] instant article links |
+| chat_[in/out]PreviewInstantSelectedText           | /!\ Unknown /!\                                              |
+| chat_selectedBackground                           | Background behind selected message bubbles                   |
 |                                                   |                                                              |
 | chat_[in/out]ReplyLine                            | Line to the left of quoted text in [inbound/outbound] reply messages |
 | chat_[in/out]ReplyNameText                        | Name of sender of message replied to in [inbound/outbound] messages |
@@ -100,5 +107,5 @@
 | _User Profile_                                    |                                                              |
 | profile_tabSelected[Line/Text]                    | [Text/Line below] media type active tab - also in chats list when multiple chats selected |
 | profile_tabText                                   | Name of media type inactive tab - also in chats list when multiple chats selected |
-| profile_action[Icon/Background/PressedBackground] | Floating action button (FAB) in profile/setttings screen     |
+| profile_action[Icon/Background/PressedBackground] | [Icon/background/background when tapped] of FAB in profile/setttings screen |
 |                                                   |                                                              |
