@@ -3,7 +3,7 @@
 | _Generic_                                         |                                                              |
 | windowBackgroundWhite                             | Main background colour                                       |
 | windowBackgroundWhiteGrayText2                    | Subtitle text for text items with descriptors (mobile, username etc.) |
-| windowBackgroundWhiteBlueHeader                   | Title of settings menu items (\*)                            |
+| windowBackgroundWhiteBlueHeader                   | /!\ Title of settings menu items                             |
 | windowBackgroundWhiteBlueText4                    | “Change chat background” text/icon                           |
 | divider                                           | Dividing line between clickable items                        |
 | listSelectorSDK21                                 | Ripple overlay when pressing list/menu item (dimmed)         |
