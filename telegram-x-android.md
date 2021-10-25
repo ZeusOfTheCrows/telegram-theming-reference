@@ -25,46 +25,97 @@
 ### Controls
 |      |      |
 | ---- | ---- |
-| controlContent                     | "tick" icon inside control. this is consistent across all xxxContent items |
+| controlContent                     | "tick" icon inside control. this is consistent across all [xxx]Content items |
 | textPlaceholder                    | prefilled dummy text inside underlined content fields        |
-| inlineContentActive                | text inside inline buttons when pressed                      |
+| inlineContentActive                | text inside inline buttons when pressed (e.g. instant view, see [bubbles\inline[xxx]](#bubbles) |
 | playerButtonActive                 | e.g. shuffle item when shuffle mode is enabled               |
 
 ### Media
-|      |      |
+|  |      |
 | ---- | ---- |
+| avatar_content | icon inside avatar for contacts without profile picture |
+| avatarArchive | archived chats avatar colour when pinned to top of list |
+| avatarArchivePinned | archived chats avatar colour when hidden above chats list |
+| avatarInactive | avatar colour of unavailable (e.g. deleted) accounts |
+| avatar[Colour] | (randomised) avatar colour for contacts without profile picture |
+| avatar[Colour]\_big | expanded avatar in profile view for contacts without profile picture |
+| name[Colour] | /?\ |
+| _Media_ |  |
+| file               | play button for audio                                   |
+| file[Colour]       | background of attached files in messages and file list. /¿\ also *may* be used for links with missing favicon /?\ |
+| waveform[In]active | foreground/background of voice messages' waveform progressbar |
+| _Attach Menu_ |  |
 | attach[Type]                       | background of bottom sheet in attach (paperclip) menu        |
 | attachText                         | text/icon of attach sheet bottom (opacity reduces when unfocussed) |
-| fileAttach                         | file type (gallery, music, etc.) circular icon background. icon is [service\white](#service) |
+| fileAttach                         | file type (gallery, music, etc.) circular icon background in attachFile menu. icon is [service\white](#service) |
 
 ### Chats
 |      |      |
 | ---- | ---- |
-|                                    |                                                              |
+| chatListAction | /?\ |
+| badgeFailed[Text] | message failed to send warning (i.e. no internet) /?\ |
+| chatKeyboard[Button] | /?\ |
+| messageVerticalLine | used for replies, link previews, etc. |
+| messageSelection | background of selected message, **only in no bubbles mode**, see [bubbles\messageSelection](#bubbles) (channels only by default) |
+| messageAuthor[Psa] | author of reply quoted message /?\ |
 | shareSeparator                     | line separating contacts grid from "open in" text (e.g. in IV sharesheet) |
-|                                    |                                                              |
 
 ### Bubbles
-|      |      |
+| notes | many properties are prefixed with "bubbleIn\_" or "bubbleOut\_" |
 | ---- | ---- |
+| bubble_messageSelection | selection colour behind message, **only in bubbles mode** (see [chats\messageSelection](#chats)) |
+| bubble_messageSelectionNoWallpaper | colour of above, when chat wallpaper is disabled. this is consistent across all [xxx]NoWallpaper items /?\ |
+| bubble_messageCheckOutline | ![circle around message selection ticked circle icon](imgs/x-check-ol.png)(the tick itself is influenced by [controls\checkActive](#controls) |
+|  |  |
+| bubble[In/Out]_[xxx] | received/sent message bubbles |
+| time | sent time inside bubble |
+| progress | /?\ |
+| textLink | clickable url link |
+| textLinkPressHighlight | background colour of links when tapped |
+|                                    |                                                              |
+|                                    |                                                              |
+| messageAuthor[Psa] | /?\ see [chats\messageAuthor](#chats) |
+| chatVerticalLine | reply quote line ++. see [chats\messageVerticalLine](#chats) |
+| inline[Outline/Text/Icon] | inline button, e.g. instant view (see [controls\inlineContentActive](#controls)) |
+| waveform[In]active | see [media\waveform[In]active](#media) |
+| outline | outline of message bubbles, disabled by default (bool bubbles\bubbleOutline) |
+| pressed | /?\ |
+| separator | /?\ |
+| file | /?\ |
+|  |  |
 | bubble_unread[Text]                | !["unread messages" banner [text]](imgs/x-new-msg.png)       |
-| bubble_date[Text]                  | ![floating date bubble [text]](imgs/x-date-bubble.png)       |
+| bubble_date[Text]                  | ![floating date bubble [text].](imgs/x-date-bubble.png)<br />also used for service message (e.g. "[contact] joined telegram") |
 |                                    |                                                              |
 
+### Instant View
+
+| notes                         | most items are prefixed with "iv\_". many of these i'm unsure about. many are named after html tags |
+| ----------------------------- | ------------------------------------------------------------ |
+|                               |                                                              |
+| [preBlock/textCode]Background | background of inline code, code blocks and ¿[`<pre>`](https://www.w3schools.com/tags/tag_pre.asp) tagged text?. usually behind dimmed monospace font |
+| separator                     | horizontal line. corresponds to [`<hr>`](https://www.w3schools.com/tags/tag_hr.asp) element |
+| ivHeaderIcon                  | applies to both text and icons in header. /!\ no underscore in prefix /!\ |
+| ivHeader                      | page titlebar, similar to [header section](#header). /!\ no underscore in prefix /!\ |
+
+
+
 ### Other
-|      |      |
+
+| notes | there are many probably important undocumented colours at the bottom of this section |
 | ---- | ---- |
-| sectionedScrollBar[Active/Content] |                                                              |
+| theme[Colour] | only previews of theme in settings menu. you shouldn't need to change these |
+| wpCats[Colour] | /?\ probably unimportant |
+| sectionedScrollBar[Active/Content] | /?\ i couldn't find any sections scrollbars in the app? |
 |                                    |                                                              |
 
 ### Service
 |      |      |
 | ---- | ---- |
-| caption_textLink                   |                                                              |
-| caption_textLinkPressHighlight     |                                                              |
-| videoSlider[In]active              |                                                              |
+| caption_textLink[PressHighlight]   | /?\ unknown, possibly accessibility items? |
+| videoSlider[In]active              | progress bar [foreground/background] of video players |
 | white                              | an annoyingly generic property, covering (buggy?) expanded header icon buttons, name in sidebar, text at the top of images, shutter icon for camera, and more… |
-| black                              | /!\ unknown /!\                                              |
+| black                              | /?\ unknown, but is the background of "caption\_" colours in settings. maybe also accessibility? |
 | transparentEditor                  | background of caption text over images, image editor         |
 |                                    |                                                              |
-| led[Colour]                        | radio button for choosing led colour in settings ztodo: does this affect actual led colour? |
+| photoHighlightTint[№] | /?\ |
+| led[Colour]                        | radio button for choosing led colour in settings [ztodo: does this affect actual led colour?] |
