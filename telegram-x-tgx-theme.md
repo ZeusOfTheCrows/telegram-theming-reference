@@ -4,8 +4,8 @@
 
 ### Accent
 
-|      |      |
-| ---- | ---- |
+| notes | most things one should need to change will be here. this section only serves as a shortcut to other sections |
+| ----- | ------------------------------------------------------------ |
 
 ### Content
 |      |      |
