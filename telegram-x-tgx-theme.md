@@ -8,6 +8,7 @@
 | ----- | ------------------------------------------------------------ |
 
 ### Content
+
 |      |      |
 | ---- | ---- |
 | separator | list view separating line |
@@ -57,15 +58,16 @@
 | chatKeyboard[Button] | /?\ |
 | messageVerticalLine | used for replies, link previews, etc. |
 | messageSelection | background of selected message, **only in no bubbles mode**, see [bubbles\messageSelection](#bubbles) (channels only by default) |
+| messageSwipe[Background/Content] | /?\ |
 | messageAuthor[Psa] | author of reply quoted message /?\ |
 | shareSeparator                     | line separating contacts grid from "open in" text (e.g. in IV sharesheet) |
 
 ### Bubbles
-| notes | many properties are prefixed with "bubbleIn\_" or "bubbleOut\_" |
+| notes | many properties are prefixed with `bubbleIn_`, `bubbleOut_`, or `bubble_` |
 | ---- | ---- |
 | bubble_messageSelection | selection colour behind message, **only in bubbles mode** (see [chats\messageSelection](#chats)) |
 | bubble_messageSelectionNoWallpaper | colour of above, when chat wallpaper is disabled. this is consistent across all [xxx]NoWallpaper items /?\ |
-| bubble_messageCheckOutline | ![circle around message selection ticked circle icon](imgs/x-check-ol.png)(the tick itself is influenced by [controls\checkActive](#controls) |
+| bubble_messageCheckOutline | ![circle around message selection ticked circle icon](imgs/x-check-ol.png "circle around message selection ticked circle icon")(the tick itself is influenced by [controls\checkActive](#controls) |
 |  |  |
 | bubble[In/Out]_[xxx] | received/sent message bubbles |
 | time | sent time inside bubble |
@@ -83,15 +85,20 @@
 | separator | /?\ |
 | file | /?\ |
 |  |  |
-| bubble_unread[Text]                | !["unread messages" banner [text]](imgs/x-new-msg.png)       |
-| bubble_date[Text]                  | ![floating date bubble [text].](imgs/x-date-bubble.png)<br />also used for service message (e.g. "[contact] joined telegram") |
-|                                    |                                                              |
+| bubble_[xxx] | |
+| unread[Text]                | !["unread messages" banner [text]](imgs/x-new-msg.png "\"unread messages\" banner [text]") |
+| date[Text]                  | ![floating date bubble [text].](imgs/x-date-bubble.png "floating date bubble [text].")<br />also used for service message (e.g. "[contact] joined telegram") |
+| button[Ripple/Text] | button beside messages when swiping (e.g. reply). /?\ ripple unknown |
+|  |  |
 
 ### Instant View
 
-| notes                         | most items are prefixed with "iv\_". many of these i'm unsure about. many are named after html tags |
+| notes                         | most items are prefixed with `iv_`. many of these i'm unsure about. many are named after html tags |
 | ----------------------------- | ------------------------------------------------------------ |
-|                               |                                                              |
+| pageTitle                     | title declared in `<head>`. as used as h2 elements as well, maybe more |
+| caption                       | image caption text. displayed under image                    |
+| header                        | /?\ unused? see ivHeader                                     |
+| pullQuote                     | used for [`<aside>`](https://quinnlabs.com/articles/pullquotes-blockquotes-and-asides-in-html5/) tagged text. most websites use `<blockquote>` for a pullquote though |
 | [preBlock/textCode]Background | background of inline code, code blocks and ¿[`<pre>`](https://www.w3schools.com/tags/tag_pre.asp) tagged text?. usually behind dimmed monospace font |
 | separator                     | horizontal line. corresponds to [`<hr>`](https://www.w3schools.com/tags/tag_hr.asp) element |
 | ivHeaderIcon                  | applies to both text and icons in header. /!\ no underscore in prefix /!\ |
@@ -107,12 +114,16 @@
 | wpCats[Colour] | /?\ probably unimportant |
 | sectionedScrollBar[Active/Content] | /?\ i couldn't find any sections scrollbars in the app? |
 |                                    |                                                              |
+| _Unsorted_ | |
+| tooltip\_[text/textLink/PressHighlight/outline] | ![popup tutorial tooltip](imgs/x-tooltip.png "popup tutorial tooltip") |
+| circleButtonActive[Icon] | when tapping the chats list FAB, it opens a list of sub-FABs and changes to these colours |
+|  |  |
 
 ### Service
 |      |      |
 | ---- | ---- |
 | caption_textLink[PressHighlight]   | /?\ unknown, possibly accessibility items? |
-| videoSlider[In]active              | progress bar [foreground/background] of video players |
+| videoSlider[In]active              | progress bar (scrubber) [foreground/background] of video players |
 | white                              | an annoyingly generic property, covering (buggy?) expanded header icon buttons, name in sidebar, text at the top of images, shutter icon for camera, and more… |
 | black                              | /?\ unknown, but is the background of "caption\_" colours in settings. maybe also accessibility? |
 | transparentEditor                  | background of caption text over images, image editor         |
