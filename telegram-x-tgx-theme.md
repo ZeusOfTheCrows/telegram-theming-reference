@@ -63,7 +63,7 @@
 | avatarInactive | avatar colour of unavailable (e.g. deleted) accounts |
 | avatar[Colour] | (randomised) avatar colour for contacts without profile picture |
 | avatar[Colour]\_big | expanded avatar in profile view for contacts without profile picture |
-| name[Colour] | /?\ |
+| name[Colour] | Avatar color shown when answering a message |
 | _Media_ |  |
 | file               | play button for audio                                   |
 | file[Colour]       | background of attached files in messages and file list. /¿\ also *may* be used for links with missing favicon /?\ |
@@ -78,17 +78,19 @@
 | ---- | ---- |
 | chatListAction | status indicator under the chat's contact name (e.g. "typing...") |
 | chatListIcon | media type icon displayed before message preview |
+| badge | Badge for chats with normal notifications |
 | badgeFailed[Text] | message failed to send warning (i.e. no internet) /?\ |
 | badgeMuted | unread badge for chats with muted notifications |
-|  |  |
+| chatKeyboard | Background of keyboard when selecting stickers, emojis, etc |
 | chatKeyboard[Button] | /?\ |
-|  |  |
 | unread[Text] | "unread messages" banner, **only in no bubbles mode**,  (see [bubbles\unread[Text]](#bubbles)) |
 | messageVerticalLine | used for replies, link previews, etc. (see [bubbles\chatVerticalLine](#bubbles)) |
 | messageSelection | background of selected message, see [bubbles\messageSelection](#bubbles) (channels only by default) |
 | messageSwipe[Background/Content] | swipe reply/forward bar **when bubbles disabled in chats** (similar to [bubbles\button[Ripple/Text]](#bubbles)) |
 | messageAuthor[Psa] | author of reply quoted message /?\ |
 | shareSeparator                     | line separating contacts grid from "open in" text (e.g. in IV sharesheet) |
+| ticks | Tick icon when a message is sent |
+| ticksRead | Tick icon when a message has been read |
 
 ### Bubbles
 | notes | many properties are prefixed with `bubbleIn_`, `bubbleOut_`, or `bubble_` |
